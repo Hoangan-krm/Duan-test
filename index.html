@@ -9,14 +9,20 @@
 
 <body>
     <h1>Nhánh main</h1>
-    git branch
-    git branch -a
-    git branch -c "tên nhánh" copy
-    git branch -b "tên nhánh" copy
-    git checkout "tên"
-    git push -u origin "tên nhánh"
+    git branch: Xem nhánh local
+    git branch -a: Xem nhánh local và remote
+    git branch -c "tên nhánh": copy toàn bộ nhánh htai sang nhánh mới, con trỏ nhánh htai
+    git branch -b "tên nhánh": copy toàn bộ nhánh htai sang nhánh mới, con trỏ nhánh mới
+    git checkout "tên": chuyển con trỏ sang nhánh
+    git push -u origin "tên nhánh": push code từ nhánh con lên github 
     git branch -d "ten nhanh"
     git push -d origin "ten nhanh"
+
+    git log: kiểm tra log chi tiết trên vscode
+    git log --oneline: kiểm trả log rút gọn: id+message
+    git checkout 96b81a3 : truy vấn đến code trong lịch sử
+    git checkout -b new : code code quá khứ sang nhánh mới
+    git push -u origin new : push code quá khứ lên github
 </body>
 
 </html>
